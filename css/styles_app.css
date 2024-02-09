@@ -1,9 +1,48 @@
 /*---------Styles Generaux------------*/
+* {
+  margin: 0;
+}
 
-/*-------- Section Vedetted APP -----------*/
+.navbar {
+  background-color: var(--grisPale);
+}
 
-/*------------Section Autres APP-----------*/
+.logo {
+  height: 30px;
+}
+
+.categories {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  top: 120px;
+}
+
+.utilisateur {
+  height: 30px;
+  border-radius: 50%;
+}
 
 /* -------------Section Recherche APP--------*/
 
+.champrecherche {
+  position: relative;
+  top: 80px;
+  width: 100%;
+}
+
+.bi-search {
+  color: var(--vert);
+}
+
+/*-------- Section Vedette APP -----------*/
+
+/*------------Section Autres APP-----------*/
+
 /*---------Section pied de page------*/
+#footer {
+  background-color: var(--grisPale);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
