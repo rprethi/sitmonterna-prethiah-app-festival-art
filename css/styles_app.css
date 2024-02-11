@@ -1,26 +1,70 @@
+/* Référence white-space: https://developer.mozilla.org/en-US/docs/Web/CSS/white-space */
 /*---------Styles Generaux------------*/
 * {
   margin: 0;
+}
+
+/*---------Section header------------*/
+
+body {
+  background-color: var(--blanc);
 }
 
 .navbar {
   background-color: var(--grisPale);
 }
 
-.logo {
-  height: 30px;
+.navbar-toggler {
+  border: none;
 }
 
-.categories {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  top: 120px;
+.logo {
+  max-width: 30px;
+  max-height: 30px;
 }
 
 .utilisateur {
   height: 30px;
   border-radius: 50%;
+}
+
+/*---------Section Main-----------*/
+
+.categories {
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  top: 110px;
+}
+
+.categories li {
+  display: inline-block;
+}
+
+.btn {
+  margin-top: 1rem;
+  margin: 5px;
+  border-radius: 50px;
+  font-size: 13px;
+  overflow: hidden;
+}
+
+.btn-outline-primary {
+  border-color: var(--vert);
+  background-color: var(--vert);
+  color: var(--blanc);
+}
+
+.btn-outline-secondary {
+  border-color: var(--grisPale);
+  background-color: var(--grisPale);
+  color: var(--grisFonce);
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--blanc);
+  color: var(--grisFonce);
 }
 
 /* -------------Section Recherche APP--------*/
@@ -29,6 +73,23 @@
   position: relative;
   top: 80px;
   width: 100%;
+}
+
+.form-control {
+  border-radius: 50px;
+}
+
+.form-control::placeholder {
+  color: var(--grisFonce);
+  font-size: 15px;
+}
+
+.input-group-text {
+  border-radius: 50px;
+}
+
+.input-group {
+  margin-right: 5px;
 }
 
 .bi-search {
