@@ -1,25 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landingpage</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="/css/main.css" />
-    <link rel="stylesheet" href="/css/styles_lp.css" />
-  </head>
 
-  <body>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-    <script src="/js/script.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Landingpage</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="/css/styles_lp.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top">
+      <div class="container">
+        <div class="row  justify-content-around">
+          <div class="col-sm-3 col-md-2 col-lg-12">
+            <div id="mainNav" class="collapse navbar-collapse ms-5 ps-5">
+              <a class="navbar-brand mx-2" href="#hero">
+                <img src="/asset/logo/logo_arthechouse.png" alt="Logo" width="30" height="30"
+                  class="d-inline-block align-text-top">
+                ARTHECHOUSE
+              </a>
+              <ul class="navbar-nav">
+                <li class="nav-item col-lg-2 col-md-2 col-sm-2">
+                  <a href="#appli " class="nav-link">L'appli</a>
+                </li>
+                <li class="nav-item col-lg-3 col-md-2 col-sm-2">
+                  <a href="#fonctionnaliter" class="nav-link">Fonctionnalité</a>
+                </li>
+                <li class="nav-item col-lg-2 col-md-2 col-sm-2 ps-3">
+                  <a href="#tarifs" class="nav-link ">Tarifs</a>
+                </li>
+                <li class="nav-item col-lg-4 col-md-2 col-sm-2 ps-2">
+                  <a href="#voirPlus" class="nav-link ">En savoir plus</a>
+                </li>
+                <li class="nav-item col-lg-2 col-md-2 col-sm-2">
+                  <a href="#temoignage" class="nav-link">Témoignage</a>
+                </li>
+              </ul>
+            </div>
+            <div class="buger">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-smooth-scroll="true" class="scrollspy" tabindex="0">
+      <h5 class="ps-4 mt-5 pt-5" id="appli">L'appli</h5>
+      <h5 class="ps-4" id="fonctionnaliter">Fonctionnalité</h5>
+      <h5 class="ps-4" id="tarifs">Tarifs</h5>
+      <h5 class="ps-4" id="voirPlus">En savoir plus</h5>
+      <h5 class="ps-4" id="temoignage">Témoignage</h5>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-5 col-md-8 col-sm-3 align-self-center" >
+          <h3>Découvrer l’ appli officielle de la compagnie d’art digitale </h3>
+          <h2>ARTECHOUSE</h2>
+          <h4>Venez nous visiter et expériencer une sensation unique.</h4>
+          <button type="button" class="btn btn-outline-primary btn-lg">téléchargement</button>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-7 mt-0 ps-6 ms-5 shadow-lg iframe-container">
+          <iframe src="/app/index.html"></iframe>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer bg-light  fixed-bottom">
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-lg-6 col-md-6 col-sm-12 text-md-start text-lg-start pt-4 ps-5">
+            <p>Prethiah Rajaratnam</p>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 pt-4 pe-5 mt-2 text-md-end text-lg-end">
+          <a href="https://github.com/rprethi/sitmonternna-prethiah-app-festival-art"
+            class="nav-link">https://github.com/rprethi/sitmonternna-prethiah-app-festival-art</a>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 pt-4 ps-5 text-md-start text-lg-start">
+          <p>Sitmonternna Yi</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 pt-2 pb-2 pe-5 text-md-end text-lg-end">
+          <div>
+            <p>&copy;2024</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="/js/script.js"></script>
+</body>
+
 </html>
