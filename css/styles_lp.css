@@ -77,10 +77,11 @@ main{
 font-family: "Quicksand";
 }
 
+
 /*----------Section Foncsionntlite LP-------*/
 
 .icon{
-  font-size: 6em;
+  font-size: 10vh;
   color: var(--bleu);
 }
 
