@@ -63,6 +63,7 @@ nav{
 }
 
 /*--------Section Hero---------*/
+
 .btn{
 color: var(--bleu);
 border-color: var(--bleu);
@@ -77,14 +78,20 @@ main{
 font-family: "Quicksand";
 }
 
-
 /*----------Section Foncsionntlite LP-------*/
 
 .icon{
   font-size: 10vh;
   color: var(--bleu);
 }
+/*
+.fonction{
+  background-color: #f2ede0;
+}*/
 
+.border-top{
+  border-top: #284a63 solid 4px;
+}
 /*----------Section temoignages LP-------*/
 
 .card-img-top{
@@ -92,7 +99,13 @@ font-family: "Quicksand";
   object-fit: cover;
   object-position: center;
 }
+/*
+.temoin{
+  background-color: #f6f5ec;
+}
+*/
 /*---------Section pied de page------*/
+
 footer{
 font-family: "Quicksand";
 background-color: var(--grisPale);
