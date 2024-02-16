@@ -84,8 +84,13 @@ font-family: "Quicksand";
   color: var(--bleu);
 }
 
+/*----------Section temoignages LP-------*/
 
-
+.card-img-top{
+  height: 20vh;
+  object-fit: cover;
+  object-position: center;
+}
 /*---------Section pied de page------*/
 footer{
 font-family: "Quicksand";
