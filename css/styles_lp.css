@@ -79,6 +79,13 @@ font-family: "Quicksand";
 
 /*----------Section Foncsionntlite LP-------*/
 
+.icon{
+  font-size: 6em;
+  color: var(--bleu);
+}
+
+
+
 /*---------Section pied de page------*/
 footer{
 font-family: "Quicksand";
