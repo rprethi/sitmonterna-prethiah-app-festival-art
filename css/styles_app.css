@@ -10,15 +10,14 @@
   font-family: "Quicksand";
 }
 
-/*---------Section header------------*/
-
 body {
-  background-color: var(--blanc);
   overflow-x: hidden;
 }
 
+/*---------Section header------------*/
+
 .navbar {
-  background-color: var(--grisPale);
+  background-color: var(--bs-light);
 }
 
 .navbar-brand {
@@ -38,19 +37,8 @@ body {
   height: 30px;
   width: 30px;
   border-radius: 50%;
-}
-
-.artist-photo {
-  width: 20px;
-  height: 20px;
   object-fit: cover;
-  border-radius: 50px;
-  margin-right: 25px;
-}
-
-.image-carte {
-  height: 20vh;
-  object-fit: cover;
+  object-position: center;
 }
 
 /*---------Section Main-----------*/
@@ -67,9 +55,16 @@ body {
   display: inline-block;
 }
 
+.artist-photo {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin-right: 25px;
+}
+
 .btn {
   margin-top: 1rem;
-  margin: 5px;
   border-radius: 50px;
   font-size: 13px;
   overflow: hidden;
@@ -78,7 +73,9 @@ body {
 .vedette {
   position: relative;
   top: 150px;
+  width: 140%;
 }
+
 /* -------------Section Recherche APP--------*/
 
 .champrecherche {
@@ -92,7 +89,7 @@ body {
 }
 
 .form-control::placeholder {
-  color: var(--grisFonce);
+  color: var(--bs-dark);
   font-size: 15px;
 }
 
@@ -105,22 +102,73 @@ body {
 }
 
 .bi-search {
-  color: var(--vert);
+  color: var(--bs-secondary);
 }
 
 /*-------- Section Vedette APP -----------*/
+.card-vedette {
+  max-width: 200px;
+  border-radius: 15px;
+}
+
+.card-vedette:hover {
+  background-color: var(--bs-light);
+}
+
+.image-carte {
+  height: 20vh;
+  object-fit: cover;
+  object-position: center;
+}
 
 /*------------Section Autres APP-----------*/
+a {
+  text-decoration: none;
+}
+
+.card-autre {
+  border-radius: 15px;
+}
+
+.card-autre:hover {
+  background-color: var(--bs-light);
+}
+
+.img-autres {
+  height: 20vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.bi-calendar {
+  font-size: 15px;
+}
+
+.bi-clock-fill {
+  font-size: 15px;
+}
+
+.bi-chevron-right {
+  font-size: 15px;
+}
+
+.autres {
+  position: relative;
+  top: 180px;
+}
 
 /*---------Section pied de page------*/
-#footer {
-  background-color: var(--grisPale);
-  width: 100%;
+footer {
+  background-color: var(--bs-light);
+  padding: 1rem;
   position: relative;
-  bottom: 0;
+  bottom: -200px;
+}
+
+.tim {
+  filter: grayscale(100%);
 }
 
 .card {
-  margin: 10px 0px;
-  width: 100%;
+  padding-right: 0;
 }
