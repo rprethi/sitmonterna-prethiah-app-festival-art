@@ -172,3 +172,8 @@ footer {
 .card {
   padding-right: 0;
 }
+
+.accordion {
+  position: relative;
+  top: 100px;
+}
