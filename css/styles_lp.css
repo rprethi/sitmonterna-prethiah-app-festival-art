@@ -107,3 +107,27 @@ footer{
 font-family: "Quicksand";
 background-color: var(--grisPale);
 }
+
+/*-----------infolettre---------------*/
+#infolettre{
+  background-image: url(../asset/img_infolettre.jpg);
+  padding: 5em;
+}
+
+.bgOpacite{
+  opacity: 0.8; 
+  background-color: var(--blanc);
+}
+
+#espacemnt{
+  height: 8em;
+}
+
+#espacemnt_header{
+  height: 3em;
+}
+
+/* section-titre
+#temoignage{
+  display: none;
+}*/
