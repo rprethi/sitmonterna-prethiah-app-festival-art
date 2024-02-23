@@ -68,24 +68,23 @@ nav{
 color: var(--bleu);
 border-color: var(--bleu);
 }
-.iframe-container {
-  position: relative;
-  width: 100%;
-  padding-top: calc(9 / 5 * 100%); 
-}
-
-.iframe-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
 
 main{
 font-family: "Quicksand";
+}
+
+.ratio-5x9 {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: calc(9 / 5 * 100%);
+}
+
+.ratio-5x9 iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 /*----------Section Foncsionntlite LP-------*/
@@ -94,10 +93,6 @@ font-family: "Quicksand";
   font-size: 10vh;
   color: var(--bleu);
 }
-/*
-.fonction{
-  background-color: #f2ede0;
-}*/
 
 /*----------Section temoignages LP-------*/
 
@@ -129,15 +124,11 @@ background-color: var(--grisPale);
   background-color: var(--blanc);
 }
 
-#espacemnt{
-  height: 8em;
-}
-
 #espacemnt_header{
-  height: 3em;
+  height: 4em;
 }
 
-/* section-titre
-#temoignage{
-  display: none;
-}*/
+#sectAppli{
+  height: 10em;
+}
+
