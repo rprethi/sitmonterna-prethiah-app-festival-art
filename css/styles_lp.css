@@ -5,6 +5,7 @@
   --vert: #3c6d71;
   --blanc: #ffffff;
   --bleu: #284a63;
+  --bs-primary: #284a63;
 }
 
 @font-face {
@@ -64,9 +65,27 @@ nav{
 
 /*--------Section Hero---------*/
 
+.btn:hover{
+  background-color: var(--grisFonce);
+color: var(--blanc);
+border-color: var(--blanc);
+}
+
+#annule{
+  color: var(--grisFonce);
+  border-color: var(--grisFonce);
+}
+
 .btn{
-color: var(--bleu);
-border-color: var(--bleu);
+  color: var(--blanc);
+  background-color: var(--vert);
+  border-color: var(--blanc);
+}
+
+#Annule:hover{
+  color: var(--blanc);
+  background-color: var(--grisFonce);
+  border-color: var(--blanc);
 }
 
 main{
