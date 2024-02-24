@@ -1,4 +1,12 @@
 /* Référence white-space: https://developer.mozilla.org/en-US/docs/Web/CSS/white-space */
+:root {
+  --bs-dark: #353535;
+  --bs-light: #d9d9d9;
+  --bs-secondary: #3c6d71;
+  --bs-white: #ffffff;
+  --bs-primary: #284a63;
+}
+
 /*---------Styles Generaux------------*/
 * {
   margin: 0;
@@ -176,4 +184,62 @@ footer {
 .accordion {
   position: relative;
   top: 100px;
+}
+
+.oeuvre-magentaverse {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  height: 33vh;
+}
+
+.img-artist {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 25vh;
+  object-fit: cover;
+  object-position: 0px 50%;
+}
+
+.carte-ariste {
+  border-radius: 15px;
+}
+
+.accordion-item {
+  border-radius: 15px;
+}
+
+.titre-bordure {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.title-oeuvre {
+  font-size: 55px;
+  margin-bottom: 0px;
+}
+
+.oeuvre {
+  position: relative;
+  top: -25px;
+  z-index: 1;
+  border-radius: 15px;
+}
+
+.bi-heart-fill {
+  background-color: var(--bs-secondary);
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  padding-left: 7.5px;
+  padding-top: 5px;
+  border-radius: 50px;
+}
+
+.bi-heart-fill:hover {
+  background-color: var(--bs-light);
+}
+.bi-chevron-left {
+  font-size: 30px;
 }
