@@ -1,4 +1,6 @@
 /* Référence white-space: https://developer.mozilla.org/en-US/docs/Web/CSS/white-space */
+/*---------Styles Generaux------------*/
+
 :root {
   --bs-dark: #353535;
   --bs-light: #d9d9d9;
@@ -7,7 +9,6 @@
   --bs-primary: #284a63;
 }
 
-/*---------Styles Generaux------------*/
 * {
   margin: 0;
   font-family: "Quicksand";
@@ -114,6 +115,7 @@ body {
 }
 
 /*-------- Section Vedette APP -----------*/
+
 .card-vedette {
   max-width: 200px;
   border-radius: 15px;
@@ -130,6 +132,7 @@ body {
 }
 
 /*------------Section Autres APP-----------*/
+
 a {
   text-decoration: none;
 }
@@ -165,26 +168,7 @@ a {
   top: 180px;
 }
 
-/*---------Section pied de page------*/
-footer {
-  background-color: var(--bs-light);
-  padding: 1rem;
-  position: relative;
-  bottom: -200px;
-}
-
-.tim {
-  filter: grayscale(100%);
-}
-
-.card {
-  padding-right: 0;
-}
-
-.accordion {
-  position: relative;
-  top: 100px;
-}
+/*------------Section Artwork APP-----------*/
 
 .oeuvre-magentaverse {
   width: 100%;
@@ -193,7 +177,7 @@ footer {
   height: 33vh;
 }
 
-.img-artist {
+.image-artiste {
   width: 100%;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -210,12 +194,7 @@ footer {
   border-radius: 15px;
 }
 
-.titre-bordure {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-
-.title-oeuvre {
+.titre-oeuvre {
   font-size: 55px;
   margin-bottom: 0px;
 }
@@ -240,6 +219,20 @@ footer {
 .bi-heart-fill:hover {
   background-color: var(--bs-light);
 }
-.bi-chevron-left {
-  font-size: 30px;
+
+.modal-titre {
+  font-size: 20px;
+}
+
+/*---------Section pied de page------*/
+
+footer {
+  background-color: var(--bs-light);
+  padding: 1rem;
+  position: relative;
+  bottom: -200px;
+}
+
+.tim {
+  filter: grayscale(100%);
 }
