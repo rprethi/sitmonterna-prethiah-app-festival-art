@@ -5,10 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="none" />
     <title>Artechouse</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../asset/favicon_arthechouse.png"
+    />
     <link href="../scss/custom_bootstrap.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/styles_app.css" />
@@ -78,34 +87,41 @@
             </div>
           </form>
         </div>
-
         <div class="categories">
-          <ul class="list-unstyled">
-            <li class="d-inline-block">
-              <button type="button" class="btn btn-primary">Toutes</button>
-            </li>
-            <li class="d-inline-block">
-              <button type="button" class="btn btn-outline-secondary fw-bold">
-                Installations interactives
-              </button>
-            </li>
-            <li class="d-inline-block">
-              <button type="button" class="btn btn-outline-secondary fw-bold">
-                Concert
-              </button>
-            </li>
-            <li class="d-inline-block">
-              <button type="button" class="btn btn-outline-secondary fw-bold">
-                Performances
-              </button>
-            </li>
-            <li class="d-inline-block">
-              <button type="button" class="btn btn-outline-secondary fw-bold">
-                AR / VR
-              </button>
-            </li>
-          </ul>
+          <div class="swiper swiper-filters ps-3 mb-3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <button type="button" class="btn btn-primary">Toutes</button>
+              </div>
+              <div class="swiper-slide">
+                <button type="button" class="btn btn-outline-secondary">
+                  Installations interactives
+                </button>
+              </div>
+              <div class="swiper-slide">
+                <button type="button" class="btn btn-outline-secondary">
+                  Concerts
+                </button>
+              </div>
+              <div class="swiper-slide">
+                <button type="button" class="btn btn-outline-secondary">
+                  Performances
+                </button>
+              </div>
+              <div class="swiper-slide">
+                <button type="button" class="btn btn-outline-secondary">
+                  AR/VR
+                </button>
+              </div>
+              <div class="swiper-slide">
+                <button type="button" class="btn btn-outline-secondary">
+                  Projections/Immersion
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
+
         <div id="vedette" class="vedette">
           <h2>En vedette</h2>
           <section class="row flex-nowrap">
@@ -380,6 +396,7 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="../js/script.js"></script>
   </body>
 </html>

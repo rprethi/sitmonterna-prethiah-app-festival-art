@@ -1,4 +1,3 @@
-/* Référence white-space: https://developer.mozilla.org/en-US/docs/Web/CSS/white-space */
 /*---------Styles Generaux------------*/
 
 :root {
@@ -17,10 +16,6 @@
 @font-face {
   src: url(../asset/font/Quicksand-VariableFont_wght.ttf) format("truetype");
   font-family: "Quicksand";
-}
-
-body {
-  overflow-x: hidden;
 }
 
 /*---------Section header------------*/
@@ -52,18 +47,6 @@ body {
 
 /*---------Section Main-----------*/
 
-.categories {
-  position: relative;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 100%;
-  top: 110px;
-}
-
-.categories li {
-  display: inline-block;
-}
-
 .artist-photo {
   width: 20px;
   height: 20px;
@@ -76,13 +59,13 @@ body {
   margin-top: 1rem;
   border-radius: 50px;
   font-size: 13px;
-  overflow: hidden;
+  margin-right: 5px;
 }
 
 .vedette {
   position: relative;
   top: 150px;
-  width: 140%;
+  overflow: hidden;
 }
 
 /* -------------Section Recherche APP--------*/
@@ -216,10 +199,6 @@ a {
   border-radius: 50px;
 }
 
-.bi-heart-fill:hover {
-  background-color: var(--bs-light);
-}
-
 .modal-titre {
   font-size: 20px;
 }
@@ -231,8 +210,22 @@ footer {
   padding: 1rem;
   position: relative;
   bottom: -200px;
+  width: 100%;
 }
 
 .tim {
   filter: grayscale(100%);
+}
+
+.swiper-slide {
+  width: auto;
+}
+.swiper {
+  width: auto;
+}
+
+.categories {
+  position: relative;
+  top: 110px;
+  left: -15px;
 }
