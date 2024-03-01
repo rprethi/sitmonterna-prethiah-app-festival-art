@@ -100,7 +100,6 @@
 /*-------- Section Vedette APP -----------*/
 
 .card-vedette {
-  max-width: 200px;
   border-radius: 15px;
 }
 
@@ -113,7 +112,6 @@
   object-fit: cover;
   object-position: center;
 }
-
 
 /*------------Section Autres APP-----------*/
 
@@ -192,12 +190,13 @@ a {
 
 .bi-heart-fill {
   background-color: var(--bs-secondary);
-  font-size: 15px;
+  font-size: 14px;
   width: 30px;
   height: 30px;
-  padding-left: 7.5px;
+  padding-left: 6.5px;
   padding-top: 5px;
   border-radius: 50px;
+  border: none;
 }
 
 .modal-titre {
@@ -229,4 +228,8 @@ footer {
   position: relative;
   top: 110px;
   left: -15px;
+}
+
+.liked {
+  background-color: var(--bs-light);
 }
