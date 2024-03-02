@@ -156,3 +156,9 @@ background-color: var(--grisPale);
 }
 
 /*swiper*/
+.swiper img {
+  width: 40vh;
+  height: 70vh;
+
+  
+}

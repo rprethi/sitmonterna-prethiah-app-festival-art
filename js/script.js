@@ -19,3 +19,11 @@ document.addEventListener("DOMContentLoaded", function () {
     likeButton.classList.toggle("liked");
   });
 });
+
+const swiper = new Swiper('.swiper-screenshots', {
+  
+  navigation: {
+    nextEl: '.btn-next',
+    prevEl: '.btn-prev',
+  },
+});
