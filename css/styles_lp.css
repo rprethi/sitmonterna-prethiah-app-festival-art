@@ -1,63 +1,6 @@
-/*---------Styles Generaux------------*/
-:root {
-  --grisFonce: #353535;
-  --grisPale: #d9d9d9;
-  --vert: #3c6d71;
-  --blanc: #ffffff;
-  --bleu: #284a63;
-  --bs-primary: #284a63;
-}
-
-@font-face {
-  src: url(../asset/font/Quicksand-VariableFont_wght.ttf) format("truetype");
-  font-family: "Quicksand";
-}
-
-h1,
-.h1 {
-  font-size: 100px;
-  font-weight: bold;
-  color: var(--bleu);
-}
-
-h2,
-.h2 {
-  font-size: 80px;
-  font-weight: 800;
-  color: var(--bleu);
-}
-
-h4,
-.h4 {
-  font-size: 60px;
-  font-weight: 600;
-  color: var(--vert);
-}
-
-h3,
-.h3 {
-  font-size: 40px;
-  font-weight: 400;
-  color: var(--grisFonce);
-}
-
-h5,
-.h5 {
-  font-size: 30px;
-  font-weight: 200;
-  color: var(--vert);
-}
-
-h6,
-.h6 {
-  font-size: 20px;
-  font-weight: 100;
-  color: var(--grisFonce);
-}
-
 /*---------Styles Header------------*/
 
-nav{
+nav {
   background-color: var(--grisPale);
   font-family: "Quicksand";
   font-weight: 600;
@@ -65,31 +8,31 @@ nav{
 
 /*--------Section Hero---------*/
 
-.btn:hover{
+.btn:hover {
   background-color: var(--grisFonce);
-color: var(--blanc);
-border-color: var(--blanc);
+  color: var(--blanc);
+  border-color: var(--blanc);
 }
 
-#annule{
+#annule {
   color: var(--grisFonce);
   border-color: var(--grisFonce);
 }
 
-.btn{
+.btn {
   color: var(--blanc);
   background-color: var(--vert);
   border-color: var(--blanc);
 }
 
-#Annule:hover{
+#Annule:hover {
   color: var(--blanc);
   background-color: var(--grisFonce);
   border-color: var(--blanc);
 }
 
-main{
-font-family: "Quicksand";
+main {
+  font-family: "Quicksand";
 }
 
 .ratio-5x9 {
@@ -108,14 +51,14 @@ font-family: "Quicksand";
 
 /*----------Section Foncsionntlite LP-------*/
 
-.icon{
+.icon {
   font-size: 10vh;
   color: var(--bleu);
 }
 
 /*----------Section temoignages LP-------*/
 
-.card-img-top{
+.card-img-top {
   height: 20vh;
   object-fit: cover;
   object-position: center;
@@ -127,31 +70,31 @@ font-family: "Quicksand";
 */
 /*---------Section pied de page------*/
 
-footer{
-font-family: "Quicksand";
-background-color: var(--grisPale);
+footer {
+  font-family: "Quicksand";
+  background-color: var(--grisPale);
 }
 
 /*-----------infolettre---------------*/
-#infolettre{
+#infolettre {
   background-image: url(../asset/img_infolettre.jpg);
   padding: 5em;
 }
 
-.bgOpacite{
-  opacity: 0.8; 
+.bgOpacite {
+  opacity: 0.8;
   background-color: var(--blanc);
 }
 
-#espacemnt_header{
+#espacemnt_header {
   height: 4em;
 }
 
-#espacemnt{
+#espacemnt {
   height: 15em;
 }
 
-#sectAppli{
+#sectAppli {
   height: 10em;
 }
 
@@ -159,6 +102,4 @@ background-color: var(--grisPale);
 .swiper img {
   width: 40vh;
   height: 70vh;
-
-  
 }

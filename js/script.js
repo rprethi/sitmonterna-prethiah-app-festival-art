@@ -20,10 +20,9 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-const swiper = new Swiper('.swiper-screenshots', {
-  
+const swiper = new Swiper(".swiper-screenshots", {
   navigation: {
-    nextEl: '.btn-next',
-    prevEl: '.btn-prev',
+    nextEl: ".btn-next",
+    prevEl: ".btn-prev",
   },
 });
