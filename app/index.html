@@ -75,18 +75,24 @@
 
     <main>
       <div class="container-fluid">
-        <div class="champrecherche">
-          <form>
-            <div class="input-group justify-content-center">
-              <span class="input-group-text"><i class="bi-search"></i></span>
-              <input
-                type="search"
-                class="form-control"
-                placeholder="Rechercher une oeuvre, un artiste..."
-              />
+        <section class="champrecherche">
+          <div class="container-fluid">
+            <div class="row">
+              <form>
+                <div class="input-group justify-content-center">
+                  <span class="input-group-text"
+                    ><i class="bi-search"></i
+                  ></span>
+                  <input
+                    type="search"
+                    class="form-control"
+                    placeholder="Rechercher une oeuvre, un artiste..."
+                  />
+                </div>
+              </form>
             </div>
-          </form>
-        </div>
+          </div>
+        </section>
         <section class="categories">
           <div class="swiper swiper-filters ps-3 mb-3">
             <div class="swiper-wrapper">
@@ -121,29 +127,295 @@
             </div>
           </div>
         </section>
-
-        <div id="vedette" class="vedette">
+        <section id="vedette" class="vedette">
           <h2>En vedette</h2>
-          <div class="swiper-featured-artworks swiper-container">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide card-1">
-                <a href="../app/artwork.html" class="card card-vedette">
+          <div class="container">
+            <div class="row">
+              <div class="swiper-featured-artworks swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide card-1">
+                    <a href="../app/artwork.html" class="card card-vedette">
+                      <img
+                        src="../asset/artworks/magentaverse.png"
+                        class="card-img-top image-carte"
+                      />
+                      <div class="card-body">
+                        <h6 class="card-title text-primary fw-bolder">
+                          Magentaverse
+                        </h6>
+                        <p class="card-text text-dark artist fw-light">
+                          Par Béatrice Pelletier
+                        </p>
+                        <div class="d-flex justify-content-between">
+                          <span>
+                            <i class="bi bi-calendar text-dark"></i>
+                            <p class="date d-inline text-dark fw-normal">
+                              12 avril 2024
+                            </p>
+                          </span>
+                          <span>
+                            <i class="bi bi-clock-fill text-dark"></i>
+                            <p class="date d-inline text-dark fw-normal">20h</p>
+                          </span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                          <img
+                            src="../asset/artists/artiste_07.jpg"
+                            class="artist-photo mt-3"
+                            alt=""
+                          />
+                          <span class="mt-3">
+                            <p class="d-inline text-secondary fw-bold">
+                              Plus d'info
+                            </p>
+                            <i
+                              class="bi bi-chevron-right text-secondary fw-bold"
+                            ></i>
+                          </span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="../app/artwork.html" class="card card-vedette">
+                      <img
+                        src="../asset/artworks/aqueous.png"
+                        class="card-img-top image-carte"
+                      />
+                      <div class="card-body">
+                        <h6 class="card-title text-primary fw-bolder">
+                          Aqueous
+                        </h6>
+                        <p class="card-text text-dark artist fw-light">
+                          Par Thomas Lavoie
+                        </p>
+                        <div class="d-flex justify-content-between">
+                          <span>
+                            <i class="bi bi-calendar text-dark"></i>
+                            <p class="date d-inline text-dark fw-normal">
+                              18 mai 2024
+                            </p>
+                          </span>
+                          <span>
+                            <i class="bi bi-clock-fill text-dark"></i>
+                            <p class="date d-inline text-dark fw-normal">15h</p>
+                          </span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                          <img
+                            src="../asset/artists/artiste_02.jpg"
+                            class="artist-photo mt-3"
+                            alt=""
+                          />
+                          <span class="mt-3">
+                            <p class="d-inline text-secondary fw-bold">
+                              Plus d'info
+                            </p>
+                            <i
+                              class="bi bi-chevron-right text-secondary fw-bold"
+                            ></i>
+                          </span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="../app/artwork.html" class="card card-vedette">
+                      <img
+                        src="../asset/artworks/blue_art.png"
+                        class="card-img-top image-carte"
+                      />
+                      <div class="card-body">
+                        <h6 class="card-title text-primary fw-bolder">Blue</h6>
+                        <p class="card-text text-dark artist fw-light">
+                          Par William Fortin
+                        </p>
+                        <div class="d-flex justify-content-between">
+                          <span>
+                            <i class="bi bi-calendar text-dark"></i>
+                            <p class="date d-inline text-dark fw-normal">
+                              06 juin 2024
+                            </p>
+                          </span>
+                          <span>
+                            <i class="bi bi-clock-fill text-dark"></i>
+                            <p class="date d-inline text-dark fw-normal">14h</p>
+                          </span>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center"
+                        >
+                          <img
+                            src="../asset/artists/artiste_03.jpg"
+                            class="artist-photo mt-3"
+                            alt=""
+                          />
+                          <span class="mt-3">
+                            <p class="informe d-inline text-secondary fw-bold">
+                              Plus d'info
+                            </p>
+                            <i
+                              class="bi bi-chevron-right text-secondary fw-bold"
+                            ></i>
+                          </span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="../app/artwork.html" class="card card-vedette">
+                      <img
+                        src="../asset/artworks/magentaverse.png"
+                        class="card-img-top image-carte"
+                      />
+                      <div class="card-body">
+                        <h6 class="card-title text-primary fw-bolder">
+                          Magentaverse
+                        </h6>
+                        <p class="card-text text-dark artist fw-light">
+                          Par Béatrice Pelletier
+                        </p>
+                        <div class="d-flex justify-content-between">
+                          <span>
+                            <i class="bi bi-calendar text-dark"></i>
+                            <p class="date d-inline text-dark fw-normal">
+                              12 avril 2024
+                            </p>
+                          </span>
+                          <span>
+                            <i class="bi bi-clock-fill text-dark"></i>
+                            <p class="date d-inline text-dark fw-normal">20h</p>
+                          </span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                          <img
+                            src="../asset/artists/artiste_07.jpg"
+                            class="artist-photo mt-3"
+                            alt=""
+                          />
+                          <span class="mt-3">
+                            <p class="d-inline text-secondary fw-bold">
+                              Plus d'info
+                            </p>
+                            <i
+                              class="bi bi-chevron-right text-secondary fw-bold"
+                            ></i>
+                          </span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="../app/artwork.html" class="card card-vedette">
+                      <img
+                        src="../asset/artworks/aqueous.png"
+                        class="card-img-top image-carte"
+                      />
+                      <div class="card-body">
+                        <h6 class="card-title text-primary fw-bolder">
+                          Aqueous
+                        </h6>
+                        <p class="card-text text-dark artist fw-light">
+                          Par Thomas Lavoie
+                        </p>
+                        <div class="d-flex justify-content-between">
+                          <span>
+                            <i class="bi bi-calendar text-dark"></i>
+                            <p class="date d-inline text-dark fw-normal">
+                              18 mai 2024
+                            </p>
+                          </span>
+                          <span>
+                            <i class="bi bi-clock-fill text-dark"></i>
+                            <p class="date d-inline text-dark fw-normal">15h</p>
+                          </span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                          <img
+                            src="../asset/artists/artiste_02.jpg"
+                            class="artist-photo mt-3"
+                            alt=""
+                          />
+                          <span class="mt-3">
+                            <p class="d-inline text-secondary fw-bold">
+                              Plus d'info
+                            </p>
+                            <i
+                              class="bi bi-chevron-right text-secondary fw-bold"
+                            ></i>
+                          </span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="../app/artwork.html" class="card card-vedette">
+                      <img
+                        src="../asset/artworks/blue_art.png"
+                        class="card-img-top image-carte"
+                      />
+                      <div class="card-body">
+                        <h6 class="card-title text-primary fw-bolder">Blue</h6>
+                        <p class="card-text text-dark artist fw-light">
+                          Par William Fortin
+                        </p>
+                        <div class="d-flex justify-content-between">
+                          <span>
+                            <i class="bi bi-calendar text-dark"></i>
+                            <p class="date d-inline text-dark fw-normal">
+                              06 juin 2024
+                            </p>
+                          </span>
+                          <span>
+                            <i class="bi bi-clock-fill text-dark"></i>
+                            <p class="date d-inline text-dark fw-normal">14h</p>
+                          </span>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center"
+                        >
+                          <img
+                            src="../asset/artists/artiste_03.jpg"
+                            class="artist-photo mt-3"
+                            alt=""
+                          />
+                          <span class="mt-3">
+                            <p class="informe d-inline text-secondary fw-bold">
+                              Plus d'info
+                            </p>
+                            <i
+                              class="bi bi-chevron-right text-secondary fw-bold"
+                            ></i>
+                          </span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="autres mb-3">
+          <h2>Autres œuvres et performances</h2>
+          <div class="container">
+            <div class="row">
+              <div class="col-12 pb-3">
+                <a href="../app/artwork.html" class="card card-autre">
                   <img
-                    src="../asset/artworks/magentaverse.png"
-                    class="card-img-top image-carte"
+                    src="../asset/artworks/pixebloom.png"
+                    class="card-img-top img-autres"
                   />
                   <div class="card-body">
-                    <h6 class="card-title text-primary fw-bolder">
-                      Magentaverse
-                    </h6>
+                    <h6 class="card-title text-primary fw-bolder">Pixebloom</h6>
                     <p class="card-text text-dark artist fw-light">
-                      Par Béatrice Pelletier
+                      Par Jessica Tremblay
                     </p>
                     <div class="d-flex justify-content-between">
                       <span>
                         <i class="bi bi-calendar text-dark"></i>
                         <p class="date d-inline text-dark fw-normal">
-                          12 avril 2024
+                          07 septembre 2024
                         </p>
                       </span>
                       <span>
@@ -153,91 +425,7 @@
                     </div>
                     <div class="d-flex justify-content-between">
                       <img
-                        src="../asset/artists/artiste_07.jpg"
-                        class="artist-photo mt-3"
-                        alt=""
-                      />
-                      <span class="mt-3">
-                        <p class="d-inline text-secondary fw-bold">
-                          Plus d'info
-                        </p>
-                        <i
-                          class="bi bi-chevron-right text-secondary fw-bold"
-                        ></i>
-                      </span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="../app/artwork.html" class="card card-vedette">
-                  <img
-                    src="../asset/artworks/aqueous.png"
-                    class="card-img-top image-carte"
-                  />
-                  <div class="card-body">
-                    <h6 class="card-title text-primary fw-bolder">Aqueous</h6>
-                    <p class="card-text text-dark artist fw-light">
-                      Par Thomas Lavoie
-                    </p>
-                    <div class="d-flex justify-content-between">
-                      <span>
-                        <i class="bi bi-calendar text-dark"></i>
-                        <p class="date d-inline text-dark fw-normal">
-                          18 mai 2024
-                        </p>
-                      </span>
-                      <span>
-                        <i class="bi bi-clock-fill text-dark"></i>
-                        <p class="date d-inline text-dark fw-normal">15h</p>
-                      </span>
-                    </div>
-                    <div class="d-flex justify-content-between">
-                      <img
-                        src="../asset/artists/artiste_02.jpg"
-                        class="artist-photo mt-3"
-                        alt=""
-                      />
-                      <span class="mt-3">
-                        <p class="d-inline text-secondary fw-bold">
-                          Plus d'info
-                        </p>
-                        <i
-                          class="bi bi-chevron-right text-secondary fw-bold"
-                        ></i>
-                      </span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="../app/artwork.html" class="card card-vedette">
-                  <img
-                    src="../asset/artworks/blue_art.png"
-                    class="card-img-top image-carte"
-                  />
-                  <div class="card-body">
-                    <h6 class="card-title text-primary fw-bolder">Blue</h6>
-                    <p class="card-text text-dark artist fw-light">
-                      Par William Fortin
-                    </p>
-                    <div class="d-flex justify-content-between">
-                      <span>
-                        <i class="bi bi-calendar text-dark"></i>
-                        <p class="date d-inline text-dark fw-normal">
-                          06 juin 2024
-                        </p>
-                      </span>
-                      <span>
-                        <i class="bi bi-clock-fill text-dark"></i>
-                        <p class="date d-inline text-dark fw-normal">14h</p>
-                      </span>
-                    </div>
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <img
-                        src="../asset/artists/artiste_03.jpg"
+                        src="../asset/artists/artiste_04.jpg"
                         class="artist-photo mt-3"
                         alt=""
                       />
@@ -253,24 +441,24 @@
                   </div>
                 </a>
               </div>
-              <div class="swiper-slide">
-                <a href="../app/artwork.html" class="card card-vedette">
+              <div class="col-12 pb-3">
+                <a href="../app/artwork.html" class="card card-autre">
                   <img
-                    src="../asset/artworks/magentaverse.png"
-                    class="card-img-top image-carte"
+                    src="../asset/artworks/art.png"
+                    class="card-img-top img-autres"
                   />
                   <div class="card-body">
                     <h6 class="card-title text-primary fw-bolder">
-                      Magentaverse
+                      Renewal 2121
                     </h6>
                     <p class="card-text text-dark artist fw-light">
-                      Par Béatrice Pelletier
+                      Par Naomi Gamelin
                     </p>
                     <div class="d-flex justify-content-between">
                       <span>
                         <i class="bi bi-calendar text-dark"></i>
                         <p class="date d-inline text-dark fw-normal">
-                          12 avril 2024
+                          26 novembre 2024
                         </p>
                       </span>
                       <span>
@@ -280,12 +468,12 @@
                     </div>
                     <div class="d-flex justify-content-between">
                       <img
-                        src="../asset/artists/artiste_07.jpg"
+                        src="../asset/artists/artiste_05.jpg"
                         class="artist-photo mt-3"
                         alt=""
                       />
                       <span class="mt-3">
-                        <p class="d-inline text-secondary fw-bold">
+                        <p class="informe d-inline text-secondary fw-bold">
                           Plus d'info
                         </p>
                         <i
@@ -296,75 +484,34 @@
                   </div>
                 </a>
               </div>
-              <div class="swiper-slide">
-                <a href="../app/artwork.html" class="card card-vedette">
+              <div class="col-12 pb-3">
+                <a href="../app/artwork.html" class="card card-autre">
                   <img
-                    src="../asset/artworks/aqueous.png"
-                    class="card-img-top image-carte"
+                    src="../asset/artworks/life.png"
+                    class="card-img-top img-autres"
                   />
                   <div class="card-body">
-                    <h6 class="card-title text-primary fw-bolder">Aqueous</h6>
+                    <h6 class="card-title text-primary fw-bolder">
+                      Life of a neuron
+                    </h6>
                     <p class="card-text text-dark artist fw-light">
-                      Par Thomas Lavoie
+                      Par Solange Blanchette
                     </p>
                     <div class="d-flex justify-content-between">
                       <span>
                         <i class="bi bi-calendar text-dark"></i>
                         <p class="date d-inline text-dark fw-normal">
-                          18 mai 2024
+                          04 janvier 2024
                         </p>
                       </span>
                       <span>
                         <i class="bi bi-clock-fill text-dark"></i>
-                        <p class="date d-inline text-dark fw-normal">15h</p>
+                        <p class="date d-inline text-dark fw-normal">20h</p>
                       </span>
                     </div>
                     <div class="d-flex justify-content-between">
                       <img
-                        src="../asset/artists/artiste_02.jpg"
-                        class="artist-photo mt-3"
-                        alt=""
-                      />
-                      <span class="mt-3">
-                        <p class="d-inline text-secondary fw-bold">
-                          Plus d'info
-                        </p>
-                        <i
-                          class="bi bi-chevron-right text-secondary fw-bold"
-                        ></i>
-                      </span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="../app/artwork.html" class="card card-vedette">
-                  <img
-                    src="../asset/artworks/blue_art.png"
-                    class="card-img-top image-carte"
-                  />
-                  <div class="card-body">
-                    <h6 class="card-title text-primary fw-bolder">Blue</h6>
-                    <p class="card-text text-dark artist fw-light">
-                      Par William Fortin
-                    </p>
-                    <div class="d-flex justify-content-between">
-                      <span>
-                        <i class="bi bi-calendar text-dark"></i>
-                        <p class="date d-inline text-dark fw-normal">
-                          06 juin 2024
-                        </p>
-                      </span>
-                      <span>
-                        <i class="bi bi-clock-fill text-dark"></i>
-                        <p class="date d-inline text-dark fw-normal">14h</p>
-                      </span>
-                    </div>
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <img
-                        src="../asset/artists/artiste_03.jpg"
+                        src="../asset/artists/artiste_06.jpg"
                         class="artist-photo mt-3"
                         alt=""
                       />
@@ -382,150 +529,21 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="autres mb-3">
-          <h2>Autres œuvres et performances</h2>
-          <section class="row">
-            <div class="col-12 pb-3">
-              <a href="../app/artwork.html" class="card card-autre">
-                <img
-                  src="../asset/artworks/pixebloom.png"
-                  class="card-img-top img-autres"
-                />
-                <div class="card-body">
-                  <h6 class="card-title text-primary fw-bolder">Pixebloom</h6>
-                  <p class="card-text text-dark artist fw-light">
-                    Par Jessica Tremblay
-                  </p>
-                  <div class="d-flex justify-content-between">
-                    <span>
-                      <i class="bi bi-calendar text-dark"></i>
-                      <p class="date d-inline text-dark fw-normal">
-                        07 septembre 2024
-                      </p>
-                    </span>
-                    <span>
-                      <i class="bi bi-clock-fill text-dark"></i>
-                      <p class="date d-inline text-dark fw-normal">20h</p>
-                    </span>
-                  </div>
-                  <div class="d-flex justify-content-between">
-                    <img
-                      src="../asset/artists/artiste_04.jpg"
-                      class="artist-photo mt-3"
-                      alt=""
-                    />
-                    <span class="mt-3">
-                      <p class="informe d-inline text-secondary fw-bold">
-                        Plus d'info
-                      </p>
-                      <i class="bi bi-chevron-right text-secondary fw-bold"></i>
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-12 pb-3">
-              <a href="../app/artwork.html" class="card card-autre">
-                <img
-                  src="../asset/artworks/art.png"
-                  class="card-img-top img-autres"
-                />
-                <div class="card-body">
-                  <h6 class="card-title text-primary fw-bolder">
-                    Renewal 2121
-                  </h6>
-                  <p class="card-text text-dark artist fw-light">
-                    Par Naomi Gamelin
-                  </p>
-                  <div class="d-flex justify-content-between">
-                    <span>
-                      <i class="bi bi-calendar text-dark"></i>
-                      <p class="date d-inline text-dark fw-normal">
-                        26 novembre 2024
-                      </p>
-                    </span>
-                    <span>
-                      <i class="bi bi-clock-fill text-dark"></i>
-                      <p class="date d-inline text-dark fw-normal">20h</p>
-                    </span>
-                  </div>
-                  <div class="d-flex justify-content-between">
-                    <img
-                      src="../asset/artists/artiste_05.jpg"
-                      class="artist-photo mt-3"
-                      alt=""
-                    />
-                    <span class="mt-3">
-                      <p class="informe d-inline text-secondary fw-bold">
-                        Plus d'info
-                      </p>
-                      <i class="bi bi-chevron-right text-secondary fw-bold"></i>
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-12 pb-3">
-              <a href="../app/artwork.html" class="card card-autre">
-                <img
-                  src="../asset/artworks/life.png"
-                  class="card-img-top img-autres"
-                />
-                <div class="card-body">
-                  <h6 class="card-title text-primary fw-bolder">
-                    Life of a neuron
-                  </h6>
-                  <p class="card-text text-dark artist fw-light">
-                    Par Solange Blanchette
-                  </p>
-                  <div class="d-flex justify-content-between">
-                    <span>
-                      <i class="bi bi-calendar text-dark"></i>
-                      <p class="date d-inline text-dark fw-normal">
-                        04 janvier 2024
-                      </p>
-                    </span>
-                    <span>
-                      <i class="bi bi-clock-fill text-dark"></i>
-                      <p class="date d-inline text-dark fw-normal">20h</p>
-                    </span>
-                  </div>
-                  <div class="d-flex justify-content-between">
-                    <img
-                      src="../asset/artists/artiste_06.jpg"
-                      class="artist-photo mt-3"
-                      alt=""
-                    />
-                    <span class="mt-3">
-                      <p class="informe d-inline text-secondary fw-bold">
-                        Plus d'info
-                      </p>
-                      <i class="bi bi-chevron-right text-secondary fw-bold"></i>
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </section>
-        </div>
+        </section>
       </div>
     </main>
-
+    
     <footer>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-12 col-sm-6">
-            <p class="text-center text-sm-center">
+          <div class="col-sm-6 text-sm-start text-center">
+            <p>
               Projet fictif réalisé dans le cadre du cours Optimisation Web
-              582-424MO. UI de l’app créé par Prethiah Rajaratanam.
+              582-424MO. Ui de l’app créé par Prethiah Rajaratnam.
             </p>
           </div>
-          <div class="col-12 col-sm-6">
-            <img
-              class="tim d-block ms-auto me-auto"
-              src="../asset/logo_tim.png"
-            />
+          <div class="col-sm-6 text-sm-end text-center align-self-center">
+            <img class="tim" src="../asset/logo_tim.png" alt="" />
           </div>
         </div>
       </div>
