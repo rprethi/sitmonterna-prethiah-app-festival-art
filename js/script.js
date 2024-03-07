@@ -1,3 +1,5 @@
+
+/*-- SWIPPER SECTION BOUTONS APP --*/
 const swiperapp = new Swiper(".swiper-filters", {
   slidesPerView: "auto",
   spaceBetween: 0,
@@ -5,6 +7,7 @@ const swiperapp = new Swiper(".swiper-filters", {
   freeMode: true,
 });
 
+/*-- SWIPPER SECTION OEUVRES APP --*/
 const swiperappartworks = new Swiper(".swiper-featured-artworks", {
   direction: "horizontal",
   grabCursor: true,
@@ -13,6 +16,7 @@ const swiperappartworks = new Swiper(".swiper-featured-artworks", {
   centeredSlides: false,
 });
 
+/*-- SWIPPER BOUTON ARTWORK LIKED --*/
 document.addEventListener("DOMContentLoaded", function () {
   const likeButton = document.querySelector(".bi-heart-fill");
   likeButton.addEventListener("click", function () {
@@ -20,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+/*-- SWIPPER SECTION SCREENSHOTS LP --*/
 const swiper = new Swiper(".swiper-screenshots", {
   navigation: {
     nextEl: ".btn-next",

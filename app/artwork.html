@@ -24,6 +24,7 @@
   </head>
   <body data-bs-spy="scroll" data-bs-target="#IdNav">
     <header>
+      <!-- SECTION MENU -->
       <nav class="navbar bg-transparent fixed-top">
         <div class="container-fluid justify-content-between">
           <button
@@ -42,20 +43,23 @@
         src="../asset/artworks/magentaverse.png"
         class="oeuvre-magentaverse"
       />
+      <!-- SECTION OEUVRE -->
       <section class="oeuvre bg-white">
-        <h1 class="titre-oeuvre pt-3 ms-3 mb-3">Magentaverse</h1>
-        <span class="me-3 ms-3">
-          <i class="bi bi-geo-fill text-dark"></i>
-          <p class="texte-place text-dark d-inline">Miami</p>
-        </span>
-        <span>
-          <i class="bi bi-calendar4-range text-dark day-magentaverse"></i>
-          <p class="text-dark d-inline texte-date">12 avril 2024</p>
-        </span>
+        <section class="oeuvre-info">
+          <h1 class="titre-oeuvre pt-3 ms-3 mb-3">Magentaverse</h1>
+          <span class="me-3 ms-3">
+            <i class="bi bi-geo-fill text-dark"></i>
+            <p class="texte-place text-dark d-inline">Miami</p>
+          </span>
+          <span>
+            <i class="bi bi-calendar4-range text-dark day-magentaverse"></i>
+            <p class="text-dark d-inline texte-date">12 avril 2024</p>
+          </span>
+        </section>
         <h5 class="titres-artistes mx-3 mt-4 bg-light text-secondary p-2">
           Artiste.s
         </h5>
-        <div class="card mx-3 bg-white carte-ariste">
+        <section class="card mx-3 bg-white carte-ariste">
           <img
             src="../asset/artists/artiste_07.jpg"
             class="card-img-top image-artiste"
@@ -80,7 +84,7 @@
               En savoir plus
             </button>
           </div>
-        </div>
+        </section>
         <h5 class="titre-propos mx-3 mt-4 bg-light text-secondary p-2">
           À propos de l'oeuvre
         </h5>
@@ -89,7 +93,8 @@
           <p class="text-primary mb-2">Durée: 45 min à 60 min</p>
           <p class="text-primary mb-2">Âge: 4 ans+</p>
         </div>
-        <div class="accordion mx-3 mt-4" id="accordeonFormulaire">
+        <!-- SECTION ACCORDION -->
+        <section class="accordion mx-3 mt-4" id="accordeonFormulaire">
           <div class="accordion-item">
             <h2 class="accordion-header" id="enteteFormulaire">
               <button
@@ -146,9 +151,10 @@
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </section>
-      <div class="modal fade" tabindex="-1" id="infoArtisteOeuvre">
+      <!-- SECTION MODAL -->
+      <section class="modal fade" tabindex="-1" id="infoArtisteOeuvre">
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-header bg-secondary">
@@ -177,9 +183,9 @@
             </p>
           </div>
         </div>
-      </div>
+      </section>
     </main>
-
+    <!-- SECTION FOOTER -->
     <footer>
       <div class="container-fluid">
         <div class="row">
