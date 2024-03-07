@@ -56,6 +56,12 @@
   overflow: hidden;
 }
 
+/* a changer*/
+.categories {
+  position: relative;
+  top: 110px;
+  left: -15px;
+}
 /* -------------Section Recherche APP--------*/
 
 /* a changer*/
@@ -221,11 +227,4 @@ footer {
 }
 .swiper {
   width: auto;
-}
-
-/* a changer*/
-.categories {
-  position: relative;
-  top: 110px;
-  left: -15px;
 }
