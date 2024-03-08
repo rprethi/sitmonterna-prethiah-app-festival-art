@@ -60,7 +60,6 @@
 .categories {
   position: relative;
   top: 110px;
-
 }
 /* -------------Section Recherche APP--------*/
 
@@ -216,6 +215,8 @@ footer {
 
 .tim {
   filter: grayscale(100%);
+  width: 70px;
+  height: 70px;
 }
 
 /*---------Swipper------*/
@@ -229,6 +230,5 @@ footer {
 
 #vedette .card-body {
   padding: 3%;
-  font-size: 14px;
+  font-size: 13.5px;
 }
-
