@@ -5,6 +5,10 @@
   font-family: "Quicksand";
 }
 
+.mainindex {
+  margin-top: 100px;
+}
+
 /*---------Section header------------*/
 
 .navbar {
@@ -49,26 +53,11 @@
   margin-right: 5px;
 }
 
-/* a changer*/
 .vedette {
-  position: relative;
-  top: 150px;
   overflow: hidden;
 }
 
-/* a changer*/
-.categories {
-  position: relative;
-  top: 110px;
-}
 /* -------------Section Recherche APP--------*/
-
-/* a changer*/
-.champrecherche {
-  position: relative;
-  top: 80px;
-  width: 100%;
-}
 
 .form-control {
   border-radius: 50px;
@@ -108,6 +97,11 @@
   object-position: center;
 }
 
+#vedette .card-body {
+  padding: 3%;
+  font-size: 13.5px;
+}
+
 /*------------Section Autres APP-----------*/
 
 a {
@@ -138,12 +132,6 @@ a {
 
 .bi-chevron-right {
   font-size: 15px;
-}
-
-/* a changer*/
-.autres {
-  position: relative;
-  top: 180px;
 }
 
 /*------------Section Artwork APP-----------*/
@@ -204,13 +192,9 @@ a {
 }
 /*---------Section pied de page------*/
 
-/* a changer*/
 footer {
   background-color: var(--bs-light);
   padding: 1rem;
-  position: relative;
-  bottom: -200px;
-  width: 100%;
 }
 
 .tim {
@@ -226,9 +210,4 @@ footer {
 }
 .swiper {
   width: auto;
-}
-
-#vedette .card-body {
-  padding: 3%;
-  font-size: 13.5px;
 }
