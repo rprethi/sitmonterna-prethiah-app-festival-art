@@ -60,7 +60,7 @@
 .categories {
   position: relative;
   top: 110px;
-  left: -15px;
+
 }
 /* -------------Section Recherche APP--------*/
 
@@ -73,7 +73,6 @@
 
 .form-control {
   border-radius: 50px;
-  border-left: none;
 }
 
 .form-control::placeholder {
@@ -175,7 +174,7 @@ a {
 }
 
 .titre-oeuvre {
-  font-size: 55px;
+  font-size: 45px;
   margin-bottom: 0px;
 }
 
@@ -227,3 +226,9 @@ footer {
 .swiper {
   width: auto;
 }
+
+#vedette .card-body {
+  padding: 3%;
+  font-size: 14px;
+}
+

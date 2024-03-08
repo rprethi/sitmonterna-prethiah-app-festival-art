@@ -46,108 +46,151 @@
       <!-- SECTION OEUVRE -->
       <section class="oeuvre bg-white">
         <section class="oeuvre-info">
-          <h1 class="titre-oeuvre pt-3 ms-3 mb-3">Magentaverse</h1>
-          <span class="me-3 ms-3">
-            <i class="bi bi-geo-fill text-dark"></i>
-            <p class="texte-place text-dark d-inline">Miami</p>
-          </span>
-          <span>
-            <i class="bi bi-calendar4-range text-dark day-magentaverse"></i>
-            <p class="text-dark d-inline texte-date">12 avril 2024</p>
-          </span>
-        </section>
-        <h5 class="titres-artistes mx-3 mt-4 bg-light text-secondary p-2">
-          Artiste.s
-        </h5>
-        <section class="card mx-3 bg-white carte-ariste">
-          <img
-            src="../asset/artists/artiste_07.jpg"
-            class="card-img-top image-artiste"
-          />
-          <div class="card-body">
-            <h5 class="titre-carte text-primary fw-bolder">Magentaverse</h5>
-            <p class="texte-carte text-dark">
-              Cette expérience immersive vous permet d'explorer le virtuel au
-              sein du monde physique pour examiner les liens entre la nature et
-              la technologie. En nous plongeant dans un univers de couleurs
-              inattendu et passionnant, elle offre une opportunité de se
-              reconnecter à la terre et de nous immerger dans nos énergies
-              créatives, galvanisant ainsi notre esprit et améliorant notre
-              bien-être.
-            </p>
-            <button
-              type="button"
-              class="btn btn-outline-secondary fw-bolder"
-              data-bs-toggle="modal"
-              data-bs-target="#infoArtisteOeuvre"
-            >
-              En savoir plus
-            </button>
+          <div class="container-fluid">
+            <div class="row">
+              <h1 class="titre-oeuvre pt-3 ms-3 mb-3">Magentaverse</h1>
+              <div class="col">
+                <span class="me-3 ms-3">
+                  <i class="bi bi-geo-fill text-dark"></i>
+                  <p class="texte-place text-dark d-inline">Miami</p>
+                </span>
+                <span>
+                  <i
+                    class="bi bi-calendar4-range text-dark day-magentaverse"
+                  ></i>
+                  <p class="text-dark d-inline texte-date">12 avril 2024</p>
+                </span>
+              </div>
+            </div>
           </div>
         </section>
-        <h5 class="titre-propos mx-3 mt-4 bg-light text-secondary p-2">
-          À propos de l'oeuvre
-        </h5>
-        <div class="propos-oeuvre ms-3 mb-3">
-          <p class="text-primary mb-2">Type: Art numérique</p>
-          <p class="text-primary mb-2">Durée: 45 min à 60 min</p>
-          <p class="text-primary mb-2">Âge: 4 ans+</p>
-        </div>
+        <section class="les-artistes">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <h5
+                  class="titres-artistes mx-3 mt-4 bg-light text-secondary p-2"
+                >
+                  Artiste.s
+                </h5>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="oeuvre-card">
+          <div class="container-fluid">
+            <div class="card mx-3 bg-white carte-ariste">
+              <img
+                src="../asset/artists/artiste_07.jpg"
+                class="card-img-top image-artiste"
+              />
+              <div class="card-body">
+                <h5 class="titre-carte text-primary fw-bolder">Magentaverse</h5>
+                <p class="texte-carte text-dark">
+                  Cette expérience immersive vous permet d'explorer le virtuel
+                  au sein du monde physique pour examiner les liens entre la
+                  nature et la technologie. En nous plongeant dans un univers de
+                  couleurs inattendu et passionnant, elle offre une opportunité
+                  de se reconnecter à la terre et de nous immerger dans nos
+                  énergies créatives, galvanisant ainsi notre esprit et
+                  améliorant notre bien-être.
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary fw-bolder"
+                  data-bs-toggle="modal"
+                  data-bs-target="#infoArtisteOeuvre"
+                >
+                  En savoir plus
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="info-propos">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <h5 class="titre-propos mx-3 mt-4 bg-light text-secondary p-2">
+                  À propos de l'oeuvre
+                </h5>
+
+                <div class="propos-oeuvre ms-3 mb-3">
+                  <p class="text-primary mb-2">Type: Art numérique</p>
+                  <p class="text-primary mb-2">Durée: 45 min à 60 min</p>
+                  <p class="text-primary mb-2">Âge: 4 ans+</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <!-- SECTION ACCORDION -->
         <section class="accordion mx-3 mt-4" id="accordeonFormulaire">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="enteteFormulaire">
-              <button
-                class="accordion-button bg-primary text-white"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseFormulaire"
-                aria-expanded="true"
-                aria-controls="collapseFormulaire"
-              >
-                Réservez votre place
-              </button>
-            </h2>
-            <div
-              id="collapseFormulaire"
-              class="accordion-collapse collapse"
-              aria-labelledby="enteteFormulaire"
-              data-bs-parent="#accordeonFormulaire"
-            >
-              <div class="accordion-body">
-                <form action="">
-                  <label for="inputEmailPersonne" class="fw-bold"
-                    >Courriel</label
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="enteteFormulaire">
+                    <button
+                      class="accordion-button bg-primary text-white"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFormulaire"
+                      aria-expanded="true"
+                      aria-controls="collapseFormulaire"
+                    >
+                      Réservez votre place
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFormulaire"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="enteteFormulaire"
+                    data-bs-parent="#accordeonFormulaire"
                   >
-                  <input
-                    type="email"
-                    class="form-control mb-3"
-                    id="inputEmailPersonne"
-                    placeholder="nom@example.com"
-                  />
-                  <label for="inputPrenomPersonne" class="mb-1 fw-bold"
-                    >Prénom</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control mb-3"
-                    id="inputPrenomPersonne"
-                  />
-                  <label for="inputNomPersonne" class="mb-1 fw-bold">Nom</label>
-                  <input
-                    type="text"
-                    class="form-control mb-3"
-                    id="inputNomPersonne"
-                  />
-                  <label for="inputDate" class="mb-1 fw-bold">Date</label>
-                  <input type="date" class="form-control mb-3" id="inputDate" />
-                  <button
-                    type="submit"
-                    class="btn btn-outline-secondary fw-bolder mt-3"
-                  >
-                    Envoyer
-                  </button>
-                </form>
+                    <div class="accordion-body">
+                      <form action="">
+                        <label for="inputEmailPersonne" class="fw-bold"
+                          >Courriel</label
+                        >
+                        <input
+                          type="email"
+                          class="form-control mb-3"
+                          id="inputEmailPersonne"
+                          placeholder="nom@example.com"
+                        />
+                        <label for="inputPrenomPersonne" class="mb-1 fw-bold"
+                          >Prénom</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control mb-3"
+                          id="inputPrenomPersonne"
+                        />
+                        <label for="inputNomPersonne" class="mb-1 fw-bold"
+                          >Nom</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control mb-3"
+                          id="inputNomPersonne"
+                        />
+                        <label for="inputDate" class="mb-1 fw-bold">Date</label>
+                        <input
+                          type="date"
+                          class="form-control mb-3"
+                          id="inputDate"
+                        />
+                        <button
+                          type="submit"
+                          class="btn btn-outline-secondary fw-bolder mt-3"
+                        >
+                          Envoyer
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -155,32 +198,39 @@
       </section>
       <!-- SECTION MODAL -->
       <section class="modal fade" tabindex="-1" id="infoArtisteOeuvre">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header bg-secondary">
-              <h5 class="modal-titre fw-bold mt-3">Béatrice Pelletier</h5>
-              <button
-                class="btn-close fermer"
-                data-bs-dismiss="modal"
-                aria-label="Fermerfenêtre"
-              ></button>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header bg-secondary">
+                    <h5 class="modal-titre fw-bold mt-3">Béatrice Pelletier</h5>
+                    <button
+                      class="btn-close fermer"
+                      data-bs-dismiss="modal"
+                      aria-label="Fermerfenêtre"
+                    ></button>
+                  </div>
+                  <div class="modal-body p-3 mt-3">
+                    Béatrice Pelletier est une artiste visionnaire dont le
+                    travail transcende les frontières entre le réel et le
+                    virtuel. Elle est surtout connue pour son œuvre
+                    révolutionnaire, Magentaverse, une expérience immersive qui
+                    invite les spectateurs à explorer un univers de couleurs et
+                    de formes infinies. À travers cette création, Pelletier
+                    offre une occasion unique de se plonger dans une réalité
+                    alternative où la nature et la technologie fusionnent
+                    harmonieusement. Son travail éveille les sens et stimule
+                    l'imagination, offrant ainsi une expérience profondément
+                    enrichissante qui encourage la connexion avec la terre et la
+                    créativité intérieure. En tant que pionnière de l'art
+                    numérique, Béatrice Pelletier inspire non seulement par ses
+                    créations, mais aussi par sa capacité à repousser les
+                    limites de l'expression artistique moderne.
+                  </div>
+                </div>
+              </div>
             </div>
-            <p class="p-3 mt-3">
-              Béatrice Pelletier est une artiste visionnaire dont le travail
-              transcende les frontières entre le réel et le virtuel. Elle est
-              surtout connue pour son œuvre révolutionnaire, Magentaverse, une
-              expérience immersive qui invite les spectateurs à explorer un
-              univers de couleurs et de formes infinies. À travers cette
-              création, Pelletier offre une occasion unique de se plonger dans
-              une réalité alternative où la nature et la technologie fusionnent
-              harmonieusement. Son travail éveille les sens et stimule
-              l'imagination, offrant ainsi une expérience profondément
-              enrichissante qui encourage la connexion avec la terre et la
-              créativité intérieure. En tant que pionnière de l'art numérique,
-              Béatrice Pelletier inspire non seulement par ses créations, mais
-              aussi par sa capacité à repousser les limites de l'expression
-              artistique moderne.
-            </p>
           </div>
         </div>
       </section>
