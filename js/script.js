@@ -1,4 +1,3 @@
-
 /*-- SWIPPER SECTION BOUTONS APP --*/
 const swiperapp = new Swiper(".swiper-filters", {
   slidesPerView: "auto",

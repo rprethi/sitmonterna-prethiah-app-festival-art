@@ -53,10 +53,6 @@
   margin-right: 5px;
 }
 
-.vedette {
-  overflow: hidden;
-}
-
 /* -------------Section Recherche APP--------*/
 
 .form-control {
@@ -82,6 +78,10 @@
 }
 
 /*-------- Section Vedette APP -----------*/
+
+.vedette {
+  overflow: hidden;
+}
 
 .card-vedette {
   border-radius: 15px;
