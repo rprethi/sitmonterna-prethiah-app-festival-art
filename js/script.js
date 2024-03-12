@@ -24,8 +24,18 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 /*-- SWIPPER SECTION SCREENSHOTS LP --*/
-const swiper = new Swiper(".swiper-screenshots", {
-  navigation: {
+var swiper = new Swiper(".swiper-screenshots", {
+  
+  slidesPerView: 1,
+  spaceBetween: 15,
+  loop: true,
+  breakpoints: {
+    1200: {
+      slidesPerView: 3,
+      spaceBetween: 500,
+    },
+   },
+   navigation: {
     nextEl: ".btn-next",
     prevEl: ".btn-prev",
   },

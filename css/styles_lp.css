@@ -96,4 +96,43 @@ footer {
 .swiper img {
   width: 40vh;
   height: 70vh;
+  
+}
+
+/*SWIPER*/
+.swiper-slide img {
+  border-color: var(--vert);
+  border-width: 2em;
+  border: solid;
+}
+
+.swiper-slide{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  
+}
+
+
+/*
+.swiper-nav{
+  background-color: bisque;
+}
+*/
+.btn-prev, .btn-next{
+  margin-top: 2vh;
+  width: 11vh;
+  height: 5vh;
+  font-family: "Quicksand";
+  font-size: 1.5em;
+}
+
+.btn-next{
+  float: right;
+}
+
+.btn-next:active, .btn-prev:active {
+  background-color: rgb(37, 103, 92); 
+  color: white;
+  border-color: white;
 }
