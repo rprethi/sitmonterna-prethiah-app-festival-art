@@ -76,8 +76,8 @@ footer {
 }
 
 .bgOpacite {
-  opacity: 0.8;
-  background-color: var(--blanc);
+  opacity: 0.6;
+  background-color: rgb(175, 172, 172);
 }
 
 #espacemnt_header {
@@ -96,43 +96,64 @@ footer {
 .swiper img {
   width: 40vh;
   height: 70vh;
-  
+
 }
 
 /*SWIPER*/
+.swiper-wrapper {
+  margin-top: 5vw;
+}
+
+.swiper-nav {
+  margin-top: 5vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
 .swiper-slide img {
   border-color: var(--vert);
   border-width: 2em;
   border: solid;
 }
 
-.swiper-slide{
+.swiper-slide {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
-  
-}
 
+}
 
 /*
 .swiper-nav{
   background-color: bisque;
 }
 */
-.btn-prev, .btn-next{
-  margin-top: 2vh;
-  width: 11vh;
-  height: 5vh;
-  font-family: "Quicksand";
-  font-size: 1.5em;
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: #284a6373;
+  border: solid white 2px;
+  color: white;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  font-size: 5em;
 }
 
-.btn-next{
+/*
+.swiper-button-next {
   float: right;
 }
-
-.btn-next:active, .btn-prev:active {
-  background-color: rgb(37, 103, 92); 
+*/
+.swiper-button-next:active,
+.swiper-button-prev:active {
+  background-color: rgb(37, 103, 92);
   color: white;
   border-color: white;
+}
+
+.swiper-slide:not(.swiper-slide-active) {
+  opacity: 0.5;
+  transition: opacity 0.5s ease;
 }

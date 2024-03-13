@@ -29,14 +29,17 @@ var swiper = new Swiper(".swiper-screenshots", {
   slidesPerView: 1,
   spaceBetween: 15,
   loop: true,
+  centeredSlides: true,
   breakpoints: {
     1200: {
       slidesPerView: 3,
-      spaceBetween: 500,
+      spaceBetween: 250,
     },
    },
    navigation: {
-    nextEl: ".btn-next",
-    prevEl: ".btn-prev",
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
+  
 });
+/*activate buttons*/ 
