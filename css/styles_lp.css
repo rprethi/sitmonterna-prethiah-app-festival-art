@@ -113,9 +113,11 @@ footer {
 }
 
 .swiper-slide img {
-  border-color: var(--vert);
+  border-color: rgb(196, 191, 191);
   border-width: 2em;
   border: solid;
+  border-radius: 30px;
+    box-shadow: 0px 0px 20px 5px #a29b9b;
 }
 
 .swiper-slide {
@@ -141,11 +143,6 @@ footer {
   font-size: 5em;
 }
 
-/*
-.swiper-button-next {
-  float: right;
-}
-*/
 .swiper-button-next:active,
 .swiper-button-prev:active {
   background-color: rgb(37, 103, 92);
