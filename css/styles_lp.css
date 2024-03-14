@@ -13,25 +13,22 @@
 }
 
 #annule {
-  color: var(--grisFonce);
-  border-color: var(--grisFonce);
+  color: var(--bs-dark);
+  border-color: var(--bs-dark);
 }
 
 .btn {
-  color: var(--blanc);
-  background-color: var(--vert);
-  border-color: var(--blanc);
+  color: var(--bs-white);
+  background-color: var(--bs-secondary);
+  border-color: var(--bs-white);
 }
 
 #Annule:hover {
-  color: var(--blanc);
-  background-color: var(--grisFonce);
-  border-color: var(--blanc);
+  color: var(--bs-white);
+  background-color: var(--bs-dark);
+  border-color: var(--bs-white);
 }
-
-main {
-  font-family: "Quicksand";
-}
+/* Section main*/
 
 .iframe-container {
   width: 100%;
@@ -49,7 +46,7 @@ iframe {
 
 .icon {
   font-size: 10vh;
-  color: var(--bleu);
+  color: var(--bs-primary);
 }
 
 /*----------Section temoignages LP-------*/
@@ -63,8 +60,7 @@ iframe {
 /*---------Section pied de page------*/
 
 footer {
-  font-family: "Quicksand";
-  background-color: var(--grisPale);
+  background-color: var(--bs-primary);
 }
 
 /*-----------infolettre---------------*/
@@ -75,7 +71,7 @@ footer {
 
 .bgOpacite {
   opacity: 0.6;
-  background-color: rgb(175, 172, 172);
+  background-color: var(--bs-primary);
 }
 
 #espacemnt_header {
@@ -94,7 +90,6 @@ footer {
 .swiper img {
   width: 40vh;
   height: 70vh;
-
 }
 
 /*SWIPER*/
@@ -102,27 +97,25 @@ footer {
   margin-top: 2vw;
 }
 
-
 .swiper-slide img {
-  border-color: rgb(196, 191, 191);
+  border-color: var(--bs-primary);
   border-width: 2em;
   border: solid;
   border-radius: 30px;
-  box-shadow: 0px 0px 20px 5px #a29b9b;
-
+  box-shadow: 0px 0px 20px 5px var(--bs-primary);
 }
 
 .swiper-slide {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .swiper-button-prev,
 .swiper-button-next {
-  background-color: #284a6373;
-  border: solid white 2px;
+  background-color: var(--bs-dark);
+  border: solid var(--bs-white) 2px;
+
   color: var(--bs-white);
   border-radius: 50%;
   width: 65px;
@@ -132,14 +125,15 @@ footer {
 
 .swiper-button-next:active,
 .swiper-button-prev:active {
-  background-color: rgb(37, 103, 92);
+  background-color: var(--bs-secondary);
   color: var(--bs-white);
   border-color: var(--bs-white);
 }
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-  background-color: rgb(37, 103, 92);
+
+  background-color: var(--bs-secondary);
   color: var(--bs-white);
   border-color: var(--bs-white);
 }
