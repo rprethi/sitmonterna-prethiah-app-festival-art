@@ -1,15 +1,12 @@
-/*---------Styles Header------------*/
-
-
 /*--------Section Hero---------*/
 .appliInfo {
   font-size: 70px;
 }
 
 .btn:hover {
-  background-color: var(--grisFonce);
-  color: var(--blanc);
-  border-color: var(--blanc);
+  background-color: var(--bs-dark);
+  color: var(--bs-white);
+  border-color: var(--bs-white);
 }
 
 #annule {
@@ -131,7 +128,6 @@ footer {
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-
   background-color: var(--bs-secondary);
   color: var(--bs-white);
   border-color: var(--bs-white);

@@ -13,6 +13,11 @@
   font-family: "Quicksand";
 }
 
+* {
+  margin: 0;
+  font-family: "Quicksand";
+}
+
 h1,
 .h1 {
   font-size: 100px;
