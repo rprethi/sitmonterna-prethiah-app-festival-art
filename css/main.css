@@ -7,8 +7,14 @@
   --bs-white: #ffffff;
   --bs-primary: #284a63;
 }
+
 @font-face {
   src: url(../asset/font/Quicksand-VariableFont_wght.ttf) format("truetype");
+  font-family: "Quicksand";
+}
+
+* {
+  margin: 0;
   font-family: "Quicksand";
 }
 
