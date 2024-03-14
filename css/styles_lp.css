@@ -13,7 +13,7 @@
 }
 
 #annule {
-  color: var(--bs-dark);
+  color: var(--bs-white);
   border-color: var(--bs-dark);
 }
 
@@ -98,11 +98,11 @@ footer {
 }
 
 .swiper-slide img {
-  border-color: var(--bs-primary);
+  border-color: var(--bs-light);
   border-width: 2em;
   border: solid;
   border-radius: 30px;
-  box-shadow: 0px 0px 20px 5px var(--bs-primary);
+  box-shadow: 0px 0px 20px 5px var(--bs-light);
 }
 
 .swiper-slide {
@@ -113,9 +113,8 @@ footer {
 
 .swiper-button-prev,
 .swiper-button-next {
-  background-color: var(--bs-dark);
+  background-color: var(--bs-light);
   border: solid var(--bs-white) 2px;
-
   color: var(--bs-white);
   border-radius: 50%;
   width: 65px;
@@ -125,7 +124,7 @@ footer {
 
 .swiper-button-next:active,
 .swiper-button-prev:active {
-  background-color: var(--bs-secondary);
+  background-color: var(--bs-light);
   color: var(--bs-white);
   border-color: var(--bs-white);
 }
