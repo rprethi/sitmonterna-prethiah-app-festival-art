@@ -146,6 +146,13 @@ footer {
   border-color: white;
 }
 
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: rgb(37, 103, 92);
+  color: white;
+  border-color: white;
+}
+
 .swiper-slide:not(.swiper-slide-active) {
   opacity: 0.5;
   transition: opacity 0.5s ease;
@@ -161,4 +168,4 @@ footer {
   margin-top: 2em;
 }
 
-/*background-color des sections differentes*/
+
