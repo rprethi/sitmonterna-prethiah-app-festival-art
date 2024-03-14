@@ -71,7 +71,7 @@ footer {
 
 .bgOpacite {
   opacity: 0.6;
-  background-color: var(--bs-primary);
+  background-color: var(--bs-light);
 }
 
 #espacemnt_header {
