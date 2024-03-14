@@ -2,9 +2,10 @@
 
 
 /*--------Section Hero---------*/
-.appliInfo{
+.appliInfo {
   font-size: 70px;
 }
+
 .btn:hover {
   background-color: var(--grisFonce);
   color: var(--blanc);
@@ -59,11 +60,6 @@ iframe {
   object-position: center;
 }
 
-/*
-.temoin{
-  background-color: #f6f5ec;
-}
-*/
 /*---------Section pied de page------*/
 
 footer {
@@ -123,16 +119,11 @@ footer {
 
 }
 
-/*
-.swiper-nav{
-  background-color: bisque;
-}
-*/
 .swiper-button-prev,
 .swiper-button-next {
   background-color: #284a6373;
   border: solid white 2px;
-  color: white;
+  color: var(--bs-white);
   border-radius: 50%;
   width: 65px;
   height: 65px;
@@ -142,15 +133,15 @@ footer {
 .swiper-button-next:active,
 .swiper-button-prev:active {
   background-color: rgb(37, 103, 92);
-  color: white;
-  border-color: white;
+  color: var(--bs-white);
+  border-color: var(--bs-white);
 }
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
   background-color: rgb(37, 103, 92);
-  color: white;
-  border-color: white;
+  color: var(--bs-white);
+  border-color: var(--bs-white);
 }
 
 .swiper-slide:not(.swiper-slide-active) {
@@ -159,13 +150,11 @@ footer {
   transform: scale(0.9);
 }
 
-.voirPlusTitre{
+.voirPlusTitre {
   text-align: center;
   margin-top: 3em;
 }
 
-.temoinTitre{
+.temoinTitre {
   margin-top: 2em;
 }
-
-
