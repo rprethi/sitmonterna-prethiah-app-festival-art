@@ -25,7 +25,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /*-- SWIPPER SECTION SCREENSHOTS LP --*/
 var swiper = new Swiper(".swiper-screenshots", {
-  
   slidesPerView: 1,
   spaceBetween: 15,
   loop: true,
@@ -35,11 +34,9 @@ var swiper = new Swiper(".swiper-screenshots", {
       slidesPerView: 3,
       spaceBetween: 250,
     },
-   },
-   navigation: {
+  },
+  navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  
 });
-/*activate buttons*/ 
