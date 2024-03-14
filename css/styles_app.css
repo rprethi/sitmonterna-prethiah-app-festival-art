@@ -190,6 +190,7 @@ a {
 .liked {
   background-color: var(--bs-light);
 }
+
 /*---------Section pied de page------*/
 
 footer {
@@ -208,6 +209,7 @@ footer {
 .swiper-slide {
   width: auto;
 }
+
 .swiper {
   width: auto;
 }
